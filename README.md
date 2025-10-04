@@ -4,12 +4,12 @@ A simple bioinformatics project that reads DNA sequences from FASTA files, calcu
 
 ---
 
-## 🔬 Why this matters
+##  Why this matters
 GC% and ORF detection are fundamental in genome analysis. They are often the first steps in genome annotation, comparative genomics, and understanding coding potential in DNA sequences.
 
 ---
 
-## ✨ Features
+##  Features
 - Parse FASTA files
 - Calculate sequence length and GC content
 - Identify open reading frames (ORFs) using `ATG` start and stop codons
@@ -19,7 +19,7 @@ GC% and ORF detection are fundamental in genome analysis. They are often the fir
 
 ---
 
-## 🚀 How to Run
+## How to Run
 Clone the repo and set up:
 
 ```bash
@@ -57,7 +57,7 @@ How to calculate GC% and detect ORFs
 How to generate and save plots/CSV summaries in Python
 Importance of documentation and reproducible analysis
 
-#Next Steps / Future Improvements
+## Next Steps / Future Improvements
 
 Handle larger genomic datasets efficiently (e.g., multi-MB FASTA files)
 Add motif search (e.g., find transcription factor binding sites)
