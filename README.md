@@ -28,26 +28,30 @@ python -m venv .venv
 .\.venv\Scripts\activate  # (Windows)
 # or
 source .venv/bin/activate  # (Mac/Linux)
-
-# Install requirements
+```
+## Install requirements
+```bash
 pip install -r requirements.txt
+```
 
-#Run the analyzer on a FASTA file:
+## Run the analyzer on a FASTA file:
+```bash
 python src/analyze_sequences.py data/sequences.fasta
+```
 
 Example Output
 
-#results/gc_distribution.png
+## results/gc_distribution.png
 Histogram showing GC% across all sequences.
 
-#results/summary.csv
+## results/summary.csv
 sequence_name,length_bp,gc_percent,orf_count,longest_orf_bp,longest_protein_aa
 seq1_example,39,56.4,1,24,7
 seq2_example,31,32.3,0,0,0
 seq3_example,32,34.4,1,9,2
 my_seq,17,41.2,0,0,0
 
-# What I learned
+## What I learned
 How to parse FASTA files programmatically
 How to calculate GC% and detect ORFs
 How to generate and save plots/CSV summaries in Python
